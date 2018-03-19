@@ -1,0 +1,9 @@
+#errors {
+    color: red;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+input:invalid {
+    outline: 2px solid red;
+}

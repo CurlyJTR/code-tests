@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="give.css">
+    <script src="give.js"></script>
+</head>
+<body>
+<script src="//use.typekit.net/rzv2mwh.js"></script>
+<script>
+    try {
+        Typekit.load();
+    } catch (e) {
+    }
+</script>
+
+<!-- Make it responsive, ok to increase spacing etc. use your judgement -->
+<!-- Make the 'why give $50' a responsive modal with any content -->
+
+<div class="container">
+    <h1>Recreated</h1>
+
+    <div class="comment">
+        $167 still needed for this project
+    </div>
+    <div class="comment-arrow"></div>
+    <div class="progress">
+        <div id="progress-value">&nbsp;</div>
+    </div>
+    <div class="give">
+        <p>
+            <b class="orange">Only <span class="sub">3</span> days left</b> to fund this project.
+        </p>
+        <p>
+            Join the <b class="sub">42</b> other donors who have already supported this project. Every dollar helps.
+        </p>
+        <div class="amount">
+            <div class="input">
+          <span>
+        $
+        </span>
+                <input id="give-amount" type="text" />
+            </div>
+            <button id="give-now" class="green">
+                Give Now
+            </button>
+        </div>
+        <div id="why">
+            Why give $<span class="sub">50</span>?
+        </div>
+
+    </div>
+    <div class="actions">
+        <button id="save-later">
+            Save for later
+        </button>
+        <button id="tell-friends">
+            Tell your friends
+        </button>
+    </div>
+</div>
+
+<div id="modal" style="display: none">
+    <div>
+        <header>Modal Dialog</header>
+        <main>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</main>
+        <footer><button id="close-modal">Ok</button></footer>
+    </div>
+</div>
+
+</body>
+</html>
